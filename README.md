@@ -14,7 +14,7 @@ for demo [visit](http://flowplayer.org/tools/demos/tooltip/custom-effect.htm/ "T
 ### 2. In layout head add following lines
     <%= rails_tooltip_stuff_if_used %>
 ### 3. Inside layout body add follwing div
-    <div id="demotip">&nbsp;<\/div>
+    <div id="demotip">&nbsp;</div>
 ### 4. Add title attribute to the node where tooltip to be displayed
     <%= link_to 'Blog', 'http://funonarils.com', :title => "A Ruby On Rails Blog"%>
     <%= link_to 'Tooltip', 'http://flowplayer.org/tools/demos/tooltip/custom-effect.htm', :title => "Visit to see demo of tooltip"%>
@@ -30,7 +30,10 @@ Here daily_statistics is the id of container holding a tags i.e. links
 ## TDOO:Example
 
 ## Contributors
-Sandip Ransing, Josh Software Private Limited
+[Sandip Ransing](http://funonrails.com/about,"Sandip Ransing"), [Josh Software Private Limited](http://joshsoftware.com,"Josh Software")
+
+If you wanted to do any changes in the plugin, do fork repository.
+Please, Feel free to add your name in contributors list.
 
 any sugestions? **san2821 at gmail.com** or **sandip at joshsoftware.com** released under the MIT license
 
