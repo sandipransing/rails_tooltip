@@ -9,7 +9,7 @@ module TooltipHelper
   end
   
   def rails_include_tooltip
-    %{ #{stylesheet_link_tag("tooltip") javascript_include_tag("jquery.tools.min")}}
+    "#{stylesheet_link_tag("tooltip")} #{javascript_include_tag("jquery.tools.min")}"
   end
   
   def rails_tooltip_stuff_if_used
