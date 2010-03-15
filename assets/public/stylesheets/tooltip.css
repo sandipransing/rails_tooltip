@@ -1,0 +1,9 @@
+#demotip { 
+  display:none; 
+  background:transparent url(/images/black_arrow.png); 
+  font-size:12px; 
+  height:70px; 
+  width:160px; 
+  padding:25px; 
+  color:#fff;     
+}
