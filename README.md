@@ -1,6 +1,6 @@
 #RailsTooltip
 Allows an easy implementation of javascript tooltip in rails.
-for demo [visit](http://flowplayer.org/tools/demos/tooltip/custom-effect.htm/ "Tooltip demo")
+for demo [visit](http://flowplayer.org/tools/demos/tooltip/index.htm/ "Tooltip demo")
 
 ## Installation
     ./script/plugin install git://github.com/sandipransing/rails_tooltip.git
