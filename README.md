@@ -17,14 +17,14 @@ for demo [visit](http://flowplayer.org/tools/demos/tooltip/custom-effect.htm/ "T
     <div id="demotip">&nbsp;</div>
 ### 4. Add title attribute to the node where tooltip to be displayed
     <%= link_to 'Blog', 'http://funonarils.com', :title => "A Ruby On Rails Blog"%>
-    <%= link_to 'Tooltip', 'http://flowplayer.org/tools/demos/tooltip/custom-effect.htm', :title => "Visit to see demo of tooltip"%>
+    <%= link_to 'Tooltip', 'http://flowplayer.org/tools/demos/tooltip/index.htm', :title => "Visit to see demo of tooltip"%>
 ### 5. To Initialize tooltip add following line at the bottom of view
     <%= tooltip_init_if_used( 'daily_statistics', 'a' ) %>
     
 Here daily_statistics is the id of container holding a tags i.e. links
 
 ### 6. To initiate tooltip for some other html tags like <label>
-    <label title="This is label tooltip">Label<\/label>
+    <label title="This is label tooltip">Label</label>
     <%= tooltip_init_if_used( 'daily_statistics', 'label' ) %>
 
 ## TDOO:Example
