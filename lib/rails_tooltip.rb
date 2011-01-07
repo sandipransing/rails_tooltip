@@ -1,0 +1,3 @@
+module RailsTooltip
+  # Your code goes here...
+end

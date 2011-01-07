@@ -2,8 +2,11 @@
 Allows an easy implementation of javascript tooltip in rails.
 for demo [visit](http://flowplayer.org/tools/demos/tooltip/index.htm "Tooltip demo")
 
-## Installation
-    ./script/plugin install git://github.com/sandipransing/rails_tooltip.git
+## Gem Installation
+    gem install rails_tooltip
+
+## Plugin Installation
+    script/plugin install git://github.com/sandipransing/rails_tooltip.git
     
     rake rails_tooltip:install   #Copy tooltip assets from plugin to app root
 
