@@ -7,8 +7,8 @@ namespace :rails_tooltip do
   task :install do
     puts "** Copying tooltip plugin assets..."           
 
-    source = File.join(RAILS_ROOT, '/vendor/plugins/rails_tooltip/assets/.')
-    FileUtils.cp_r source, RAILS_ROOT
+    source = File.join(Rails.root, '/vendor/plugins/rails_tooltip/assets/.')
+    FileUtils.cp_r source, Rails.root
          
     puts "** Successfully installed tooltip assets"
   end
